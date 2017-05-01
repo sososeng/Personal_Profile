@@ -1,0 +1,17 @@
+body {
+    background-image: url("desk.jpg");
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title{
+	margin-left: 680px;
+	margin-top: 140px;
+}
+
+.video{
+	margin-left: 350px;
+	margin-top: 240px;
+}
