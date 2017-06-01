@@ -15,7 +15,7 @@
 
 body{ /* for demo purpose only */
     
-	height:2000px;
+	
     
 }
 
@@ -63,7 +63,7 @@ background: url(city.svg) no-repeat center top;
 
 .header{
 	width: 100%;
-	height: 1000px;
+	
 	background-color: #e0ebe8;
 	
 }
@@ -71,5 +71,104 @@ background: url(city.svg) no-repeat center top;
 	margin-top: 100px;
 }
 
+.sectionOne > p{
+
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin-top: 100px;
+	text-align: center;
+	color:#45b29a;
+	font-size: 2rem;
+	font-weight: bold;
+	
+}
+.sectionTwo > p{
+	
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin-top: 10px;
+	text-align: center;
+	color: #545454;
+	font-size: 1.2rem;
+}
+
+
+.sectionThree > p{
+	
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	color: #1e836c;
+	font-size: 2rem;
+
+}
+
+.sectionFour .title{
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	color:#45b29a;
+	font-size: 1.5rem;
+	font-weight: bold;
+	float: left;
+	
+
+}
+
+
+.sectionFour .sub{
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin-top: 10px;
+	color: #545454;
+	font-size: 1.2rem;
+	clear: both;
+
+}
+
+.sectionFour{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.hammer:hover{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+    border-color: red;
+
+}
+
+
+.sectionFive .title{
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	color:#45b29a;
+	font-size: 1.5rem;
+	font-weight: bold;
+	float: left;
+	
+
+}
+
+
+hr {
+
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: .2em;
+	height: .2em;
+	border-radius: 50%;
+	background: #cecece;
+	box-shadow: 30px 0 #cecece, -30px 0 #cecece;
+
+}
+
+
+
+/*
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	background: #cecece;
+	box-shadow: 30px 0 #cecece, -30px 0 #cecece;
+*/
 
 //#45b29a
