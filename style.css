@@ -32,6 +32,7 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Indie Flower', cursive;
 	color:#45b29a;
 	font-size: 2vw;
+	font-weight: bold;
 
 }
 
@@ -62,8 +63,7 @@ background: url(city.svg) no-repeat center top;
 }
 
 .header{
-	width: 100%;
-	
+	width: 100%;	
 	background-color: #e0ebe8;
 	
 }
@@ -88,15 +88,18 @@ background: url(city.svg) no-repeat center top;
 	text-align: center;
 	color: #545454;
 	font-size: 1.2rem;
+	font-weight: bold;
 }
 
 
-.sectionThree > p{
+
+.sectionThree > p, .sectionSeven > p{
 	
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: center;
 	color: #1e836c;
-	font-size: 2rem;
+	font-size: 3rem;
+	font-weight: bold;
 
 }
 
@@ -118,13 +121,11 @@ background: url(city.svg) no-repeat center top;
 	color: #545454;
 	font-size: 1.2rem;
 	clear: both;
+	font-weight: bold;
 
 }
 
-.sectionFour{
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
+
 
 .hammer:hover{
     cursor: default;
@@ -133,7 +134,6 @@ background: url(city.svg) no-repeat center top;
     border-color: red;
 
 }
-
 
 .sectionFive .title{
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -147,17 +147,53 @@ background: url(city.svg) no-repeat center top;
 }
 
 
+
+.sectionThree,.sectionFour,.sectionFive,.sectionSix,.sectionSeven{
+	margin-bottom: 100px;
+}
+.sectionSix .title{
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	color:#45b29a;
+	font-size: 1.5rem;
+	font-weight: bold;
+	float: left;
+	
+
+}
+
+
 hr {
 
-	margin-top: 60px;
-	margin-bottom: 60px;
-	width: .2em;
-	height: .2em;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	width: .5em;
+	height: .5em;
 	border-radius: 50%;
 	background: #cecece;
 	box-shadow: 30px 0 #cecece, -30px 0 #cecece;
 
 }
+
+.css, .html5, .python,.javascript,.sql,.node,.jquery,.express,.react,.mongo,.babel,.sass{
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+.whatIKnow p, .whatImLearning p{
+	color: #545454;
+	font-size: 1em;
+	text-align: center;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: bold;
+}
+.devicon-css3-plain, .devicon-html5-plain , .devicon-python-plain ,.devicon-javascript-plain,.devicon-postgresql-plain ,
+.devicon-nodejs-plain ,.devicon-jquery-plain,.devicon-express-original,.devicon-react-original,.devicon-mongodb-plain,.devicon-babel-plain,.devicon-sass-original{
+	color : #60be86;
+	font-size: 5em;
+}
+
 
 
 
