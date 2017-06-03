@@ -2,13 +2,17 @@
   width: 100%;
 }
 
+
 .top-bar, .top-bar ul {
 	background-color:transparent;
+	transition: background-color 0.7s linear;
 	
 }
 
 .top-bar{
-	padding: 2rem;
+	padding: 2vw;
+	
+
 }
 
 
@@ -77,7 +81,7 @@ background: url(city.svg) no-repeat center top;
 	margin-top: 100px;
 	text-align: center;
 	color:#45b29a;
-	font-size: 2rem;
+	font-size: 2.5vw;
 	font-weight: bold;
 	
 }
@@ -87,7 +91,7 @@ background: url(city.svg) no-repeat center top;
 	margin-top: 10px;
 	text-align: center;
 	color: #545454;
-	font-size: 1.2rem;
+	font-size: 1.5vw;
 	font-weight: bold;
 }
 
@@ -98,7 +102,7 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: center;
 	color: #1e836c;
-	font-size: 3rem;
+	font-size: 2.5vw;
 	font-weight: bold;
 
 }
@@ -107,7 +111,7 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: center;
 	color:#45b29a;
-	font-size: 1.5rem;
+	font-size: 2vw;
 	font-weight: bold;
 	float: left;
 	
@@ -119,19 +123,22 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Quattrocento Sans', sans-serif;
 	margin-top: 10px;
 	color: #545454;
-	font-size: 1.2rem;
+	font-size: 1.5vw;
 	clear: both;
 	font-weight: bold;
 
 }
 
-
+.hammer{
+	transform: rotate(-360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
 
 .hammer:hover{
     cursor: default;
     transform: rotate(360deg);
     transition: all 0.3s ease-in-out 0s;
-    border-color: red;
+   
 
 }
 
@@ -139,7 +146,7 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: center;
 	color:#45b29a;
-	font-size: 1.5rem;
+	font-size: 2vw;
 	font-weight: bold;
 	float: left;
 	
@@ -155,7 +162,7 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: center;
 	color:#45b29a;
-	font-size: 1.5rem;
+	font-size: 2vw;
 	font-weight: bold;
 	float: left;
 	
@@ -183,28 +190,28 @@ hr {
 
 .whatIKnow p, .whatImLearning p{
 	color: #545454;
-	font-size: 1em;
+	font-size: 1.5vw;
 	text-align: center;
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-weight: bold;
 }
+
+
 .devicon-css3-plain, .devicon-html5-plain , .devicon-python-plain ,.devicon-javascript-plain,.devicon-postgresql-plain ,
 .devicon-nodejs-plain ,.devicon-jquery-plain,.devicon-express-original,.devicon-react-original,.devicon-mongodb-plain,.devicon-babel-plain,.devicon-sass-original{
 	color : #60be86;
-	font-size: 5em;
+	font-size: 5vw;
+}
+
+.devicon-css3-plain:hover, .devicon-html5-plain:hover , .devicon-python-plain:hover ,.devicon-javascript-plain:hover,.devicon-postgresql-plain:hover,
+.devicon-nodejs-plain:hover,.devicon-jquery-plain:hover,.devicon-express-original:hover,.devicon-react-original:hover,.devicon-mongodb-plain:hover,.devicon-babel-plain:hover,.devicon-sass-original:hover{
+	color : green;
+
 }
 
 
 
 
-/*
-	margin-top: 100px;
-	margin-bottom: 100px;
-	width: 1em;
-	height: 1em;
-	border-radius: 50%;
-	background: #cecece;
-	box-shadow: 30px 0 #cecece, -30px 0 #cecece;
-*/
+
 
 //#45b29a

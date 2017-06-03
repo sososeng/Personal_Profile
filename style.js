@@ -20,7 +20,8 @@
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var navbarHeight = $('.top-bar').outerHeight();
+//var navbarHeight = $('.top-bar').outerHeight();
+var navbarHeight = 0;
 
 $(window).scroll(function(event){
     didScroll = true;
@@ -42,8 +43,19 @@ function hasScrolled() {
     
     // If they scrolled down and are past the navbar, add class .MagicMenu-up.
     // This is necessary so you never see what is "behind" the navbar.
+
+    if (st == 0){
+      $('.top-bar').css("background-color","transparent");
+      $('.top-bar ul').css("background-color","transparent");
+      $('.top-bar').css("box-shadow", "none");
+    }else{
+      $('.top-bar').css("background-color","white");
+      $('.top-bar').css("box-shadow", "0 5px 10px -10px");
+    }
+
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
+
         $('.top-bar').slideUp();
     } else {
         // Scroll Up
