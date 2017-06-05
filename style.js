@@ -68,6 +68,17 @@ function hasScrolled() {
 }
 
 
+
+$('.card').mouseover(function () {
+    var $this = $(this);
+    if (!$this.is(":animated"))
+      $this.effect("bounce", { distance:10,times:1 }, 300);
+});
+
+
+
+
+
 });
 }(jQuery));
 

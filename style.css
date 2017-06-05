@@ -10,7 +10,7 @@
 }
 
 .top-bar{
-	padding: 2vw;
+	padding: .5em;
 	
 
 }
@@ -25,7 +25,7 @@ body{ /* for demo purpose only */
 
 .banner{
 width: 80vw;
-height: 80vh;
+height: 60em;
 background: url(city.svg) no-repeat center top;
 
 
@@ -35,7 +35,7 @@ background: url(city.svg) no-repeat center top;
 
 	font-family: 'Indie Flower', cursive;
 	color:#45b29a;
-	font-size: 2vw;
+	font-size: 1.7em;
 	font-weight: bold;
 
 }
@@ -56,14 +56,14 @@ background: url(city.svg) no-repeat center top;
 
 #name{
 	font-family:'Mr De Haviland', cursive;
-	font-size: 8vw;
+	font-size: 8em;
 	font-weight: bold;
     
 }
 
 #skill{
 	font-family: 'Indie Flower', cursive;
-	font-size: 2vw;
+	font-size: 2em;
 }
 
 .header{
@@ -81,7 +81,7 @@ background: url(city.svg) no-repeat center top;
 	margin-top: 100px;
 	text-align: center;
 	color:#45b29a;
-	font-size: 2.5vw;
+	font-size: 2.5em;
 	font-weight: bold;
 	
 }
@@ -91,7 +91,7 @@ background: url(city.svg) no-repeat center top;
 	margin-top: 10px;
 	text-align: center;
 	color: #545454;
-	font-size: 1.5vw;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 
@@ -102,7 +102,7 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: center;
 	color: #1e836c;
-	font-size: 2.5vw;
+	font-size: 2.5em;
 	font-weight: bold;
 
 }
@@ -111,7 +111,7 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: center;
 	color:#45b29a;
-	font-size: 2vw;
+	font-size: 2em;
 	font-weight: bold;
 	float: left;
 	
@@ -123,7 +123,7 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Quattrocento Sans', sans-serif;
 	margin-top: 10px;
 	color: #545454;
-	font-size: 1.5vw;
+	font-size: 1.5em;
 	clear: both;
 	font-weight: bold;
 
@@ -146,7 +146,7 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: center;
 	color:#45b29a;
-	font-size: 2vw;
+	font-size: 2em;
 	font-weight: bold;
 	float: left;
 	
@@ -162,7 +162,7 @@ background: url(city.svg) no-repeat center top;
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: center;
 	color:#45b29a;
-	font-size: 2vw;
+	font-size: 2em;
 	font-weight: bold;
 	float: left;
 	
@@ -190,7 +190,7 @@ hr {
 
 .whatIKnow p, .whatImLearning p{
 	color: #545454;
-	font-size: 1.5vw;
+	font-size: 1.2em;
 	text-align: center;
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-weight: bold;
@@ -200,7 +200,7 @@ hr {
 .devicon-css3-plain, .devicon-html5-plain , .devicon-python-plain ,.devicon-javascript-plain,.devicon-postgresql-plain ,
 .devicon-nodejs-plain ,.devicon-jquery-plain,.devicon-express-original,.devicon-react-original,.devicon-mongodb-plain,.devicon-babel-plain,.devicon-sass-original{
 	color : #60be86;
-	font-size: 5vw;
+	font-size: 5em;
 }
 
 .devicon-css3-plain:hover, .devicon-html5-plain:hover , .devicon-python-plain:hover ,.devicon-javascript-plain:hover,.devicon-postgresql-plain:hover,
@@ -210,8 +210,23 @@ hr {
 }
 
 
+.card:hover{
+	border-style: solid;
+	border-color: #45b29a;
+}
 
-
-
+.card-title,.card-divider p{
+	font-family: 'Quattrocento Sans', sans-serif;
+	color:#45b29a;
+	font-size: 1.5em;
+	font-weight: bold;
+	
+}
+.card-des{
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #545454;
+	font-size: 1em;
+	font-weight: bold;
+}
 
 //#45b29a
