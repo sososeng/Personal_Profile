@@ -1,8 +1,7 @@
+$(document).foundation();
 (function ($) {
-
-  $(document).foundation();
-
   $(document).ready(function(){
+
     
   /*var lastScrollTop = 0;
 
@@ -22,6 +21,10 @@ var lastScrollTop = 0;
 var delta = 5;
 //var navbarHeight = $('.top-bar').outerHeight();
 var navbarHeight = 0;
+
+if ($(this).scrollTop() > 0){
+  $('.top-bar').css("background-color","white");
+}
 
 $(window).scroll(function(event){
     didScroll = true;
@@ -84,8 +87,6 @@ $('.card').mouseover(function () {
 
 
 
-
-//$(document).foundation();
 
 
 
