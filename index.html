@@ -4,7 +4,8 @@
     <title>Sokhun | Seng</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" integrity="sha256-itWEYdFWzZPBG78bJOOiQIn06QCgN/F0wMDcC4nOhxY=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Mr+De+Haviland|Quattrocento+Sans|Shadows+Into+Light+Two"" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Mr+De+Haviland|Quattrocento+Sans|Shadows+Into+Light+Two" rel="stylesheet">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="devicon-master/devicon.min.css">
   </head>
@@ -15,21 +16,21 @@
     <div class="top-bar-container" data-sticky-container>
       <div class="sticky" data-sticky data-margin-top="0">
         <div class="top-bar">
+            <div class="top-bar-left small-offset-1 medium-offset-1 large-offset-1">
+              <p class="myname">SOKHUN SENG</p>
+            </div>
             <div class = "row large-10 columns">
               <div class="top-bar-right">
-                <ul class="menu">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Resume</a></li>
-                </ul> 
+                <ul class="menu" data-magellan>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#resume">Resume</a></li>
+                </ul>
               </div>
             </div>
         </div>
       </div>
-
-
-
-    </div>  
+    </div>
 
     <div class = "row intro">
       <p id = "name">I'm Sokhun.</p>
@@ -41,9 +42,10 @@
   </div>
 
 
-  <div class = "row sectionOne">
+  <div id = "about" class = "row sectionOne" data-magellan-target="about">
+
     <p>Hello.</p>
-    
+
   </div>
 
   <div class = "row sectionTwo">
@@ -52,9 +54,9 @@
 
   <div class = "row devider">
      <hr/>
-   
+
   </div>
- 
+
 
   <div class = "row sectionThree">
     <p>What I can do.</p>
@@ -77,49 +79,49 @@
 
     <div class = "small-8 medium-8 large-8 columns whatIKnow">
       <div class = "css">
-        <div class = "devicon-css3-plain">   
+        <div class = "devicon-css3-plain">
         </div>
         <p>CSS3</p>
       </div>
 
       <div class = "html5">
-        <div class = "devicon-html5-plain">   
+        <div class = "devicon-html5-plain">
         </div>
         <p>HTML5</p>
       </div>
 
       <div class = "python">
-        <div class = "devicon-python-plain">   
+        <div class = "devicon-python-plain">
         </div>
         <p>Python</p>
       </div>
 
       <div class = "javascript">
-        <div class = "devicon-javascript-plain">   
+        <div class = "devicon-javascript-plain">
         </div>
         <p>JavaScript</p>
       </div>
 
       <div class = "sql">
-        <div class = "devicon-postgresql-plain">   
+        <div class = "devicon-postgresql-plain">
         </div>
         <p>PostgreSQL</p>
       </div>
 
       <div class = "node">
-        <div class = "devicon-nodejs-plain">   
+        <div class = "devicon-nodejs-plain">
         </div>
         <p>Node.js</p>
       </div>
 
       <div class = "node">
-        <div class = "devicon-jquery-plain">   
+        <div class = "devicon-jquery-plain">
         </div>
         <p>jQuery</p>
       </div>
 
       <div class = "express">
-        <div class = "devicon-express-original">   
+        <div class = "devicon-express-original">
         </div>
         <p>express</p>
       </div>
@@ -138,36 +140,31 @@
     <div class = "small-8 medium-8 large-8 columns whatImLearning">
 
       <div class = "react">
-        <div class = "devicon-react-original">   
+        <div class = "devicon-react-original">
         </div>
         <p>React</p>
       </div>
 
- 
+
       <div class = "mongo">
-        <div class="devicon-mongodb-plain">   
+        <div class="devicon-mongodb-plain">
         </div>
         <p>mongoDB</p>
       </div>
 
       <div class = "babel">
-        <div class="devicon-babel-plain">   
+        <div class="devicon-babel-plain">
         </div>
         <p>BABEL</p>
       </div>
 
-      <div class = "sass">
-        <div class="devicon-sass-original">   
-        </div>
-        <p>Sass</p>
-      </div>
     </div>
 
-  </div>  
+  </div>
 
   <hr/>
 
-  <div class = "row sectionSeven">
+  <div id = "portfolio" class = "row sectionSeven" data-magellan-target="portfolio">
     <p>Portfolio</p>
   </div>
 
@@ -219,7 +216,7 @@
     </a>
 
   </div>
-  
+
 
   <!--models -->
 
@@ -232,7 +229,7 @@
           <ul class="orbit-container">
             <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
             <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-  
+
             <li class="orbit-slide">
               <div class = "test">
               <img class="orbit-image" src="mydesk.svg" alt="Space">
@@ -270,7 +267,7 @@
           <ul class="orbit-container">
             <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
             <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-  
+
             <li class="orbit-slide">
               <div class = "test">
               <img class="orbit-image" src="mydesk.svg" alt="Space">
@@ -309,7 +306,7 @@
           <ul class="orbit-container">
             <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
             <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-  
+
             <li class="orbit-slide">
               <div class = "test">
               <img class="orbit-image" src="mydesk.svg" alt="Space">
@@ -343,7 +340,7 @@
 
   <hr/>
 
-  <div class = "row sectionNine">
+  <div id = "resume" class = "row sectionNine" data-magellan-target="resume">
     <p>Resume</p>
   </div>
 
@@ -351,13 +348,21 @@
 
   <div class = "row sectionTen small-6 medium-6 large-6 columns">
     <div class = "small-3 medium-3 large-3 columns">
-      <p>under construction</p>
+      <p class = "talk">LET'S TALK</p>
+      <P class = "email">sososeng@gmail.com</P>
+      <a href="https://www.linkedin.com/in/sokhun-seng-21782498/" class="fa fa-linkedin" aria-hidden="true"></a>
+      <a href="https://github.com/sososeng" class="fa fa-github" aria-hidden="true"></a>
 
     </div>
     <div class = "small-3 medium-3 large-3 columns">
-      <button class="hollow button secondary" href="">Download Resume</button>
+      <button class="hollow button secondary download" href="">Download Resume</button>
     </div>
-  </div>  
+  </div>
+
+
+  <div class = "footer">
+
+  </div>
 
 
   <script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
@@ -367,7 +372,7 @@
 
 
 
-  
+
 
 
   </body>

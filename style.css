@@ -6,21 +6,21 @@
 .top-bar, .top-bar ul {
 	background-color:transparent;
 	transition: background-color 0.7s linear;
-	
+
 }
 
 .top-bar{
 	padding: .5em;
-	
+
 
 }
 
 
 
 body{ /* for demo purpose only */
-    
-	
-    
+
+
+
 }
 
 .banner{
@@ -31,7 +31,7 @@ background: url(city.svg) no-repeat center top;
 
 }
 
-.menu > li a{
+.menu > li a {
 
 	font-family: 'Indie Flower', cursive;
 	color:#45b29a;
@@ -43,12 +43,19 @@ background: url(city.svg) no-repeat center top;
 .menu > li a:hover{
 
 	color:#0F8A6F;
-	
+
 
 }
 
+.myname{
+  font-family: 'Indie Flower', cursive;
+  color:#0F8A6F;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
 #name, #skill{
-	
+
 	text-align: center;
 	color:#45b29a;
 
@@ -58,7 +65,7 @@ background: url(city.svg) no-repeat center top;
 	font-family:'Mr De Haviland', cursive;
 	font-size: 8em;
 	font-weight: bold;
-    
+
 }
 
 #skill{
@@ -67,9 +74,9 @@ background: url(city.svg) no-repeat center top;
 }
 
 .header{
-	width: 100%;	
+	width: 100%;
 	background-color: #e0ebe8;
-	
+
 }
 .intro{
 	margin-top: 100px;
@@ -83,10 +90,10 @@ background: url(city.svg) no-repeat center top;
 	color:#45b29a;
 	font-size: 2.5em;
 	font-weight: bold;
-	
+
 }
 .sectionTwo > p{
-	
+
 	font-family: 'Quattrocento Sans', sans-serif;
 	margin-top: 10px;
 	text-align: center;
@@ -98,7 +105,7 @@ background: url(city.svg) no-repeat center top;
 
 
 .sectionThree > p, .sectionSeven > p, .sectionNine > p{
-	
+
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: center;
 	color: #1e836c;
@@ -114,7 +121,7 @@ background: url(city.svg) no-repeat center top;
 	font-size: 2em;
 	font-weight: bold;
 	float: left;
-	
+
 
 }
 
@@ -138,7 +145,7 @@ background: url(city.svg) no-repeat center top;
     cursor: default;
     transform: rotate(360deg);
     transition: all 0.3s ease-in-out 0s;
-   
+
 
 }
 
@@ -149,9 +156,39 @@ background: url(city.svg) no-repeat center top;
 	font-size: 2em;
 	font-weight: bold;
 	float: left;
-	
+
 
 }
+
+.talk{
+
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #1e836c;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.email{
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #545454;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.fa-linkedin, .fa-github{
+  color : #60be86;
+  text-align: center;
+  margin-right: .5em;
+  font-size: 1.5em;
+}
+
+.fa-linkedin:hover, .fa-github:hover{
+  color : green;
+}
+.download:hover{
+  color : green;
+}
+
+
 
 .modelHead{
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -227,7 +264,7 @@ hr {
 	color:#45b29a;
 	font-size: 1.5em;
 	font-weight: bold;
-	
+
 }
 .card-des{
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -238,4 +275,10 @@ hr {
 
 .orbit-container {
     min-height: 23em;
+}
+
+.footer{
+  margin-top: 100px;
+  height: 8em;
+  background-color:#e0ebe8;
 }
