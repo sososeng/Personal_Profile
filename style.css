@@ -25,7 +25,7 @@ body{ /* for demo purpose only */
 
 .banner{
 width: 80vw;
-height: 60em;
+height: 40em;
 background: url(city.svg) no-repeat center top;
 
 
@@ -226,7 +226,7 @@ hr {
 
 }
 
-.css, .html5, .python,.javascript,.sql,.node,.jquery,.express,.react,.mongo,.babel,.sass{
+.css, .html5, .python,.javascript,.sql,.node,.jquery,.express,.react,.mongo,.babel,.sass,.java{
 	display: inline-block;
 	margin-right: 10px;
 	margin-bottom: 15px;
@@ -241,13 +241,13 @@ hr {
 }
 
 
-.devicon-css3-plain, .devicon-html5-plain , .devicon-python-plain ,.devicon-javascript-plain,.devicon-postgresql-plain ,
+.devicon-java-plain, .devicon-css3-plain, .devicon-html5-plain , .devicon-python-plain ,.devicon-javascript-plain,.devicon-postgresql-plain ,
 .devicon-nodejs-plain ,.devicon-jquery-plain,.devicon-express-original,.devicon-react-original,.devicon-mongodb-plain,.devicon-babel-plain,.devicon-sass-original{
 	color : #60be86;
 	font-size: 5em;
 }
 
-.devicon-css3-plain:hover, .devicon-html5-plain:hover , .devicon-python-plain:hover ,.devicon-javascript-plain:hover,.devicon-postgresql-plain:hover,
+.devicon-java-plain:hover , .devicon-css3-plain:hover, .devicon-html5-plain:hover , .devicon-python-plain:hover ,.devicon-javascript-plain:hover,.devicon-postgresql-plain:hover,
 .devicon-nodejs-plain:hover,.devicon-jquery-plain:hover,.devicon-express-original:hover,.devicon-react-original:hover,.devicon-mongodb-plain:hover,.devicon-babel-plain:hover,.devicon-sass-original:hover{
 	color : green;
 
@@ -273,12 +273,27 @@ hr {
 	font-weight: bold;
 }
 
-.orbit-container {
-    min-height: 23em;
-}
 
 .footer{
   margin-top: 100px;
   height: 8em;
   background-color:#e0ebe8;
+}
+
+.orbit-container{
+  min-height: 42em;
+}
+
+.card{
+  height: 25em;
+}
+.frontImage{
+  max-height: 12em;
+
+}
+.orbit-image{
+  max-height: 42em;
+  width: auto;
+  display: block;
+  margin: 0 auto;
 }

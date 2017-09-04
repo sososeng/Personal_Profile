@@ -49,7 +49,7 @@
   </div>
 
   <div class = "row sectionTwo">
-  <p class= "small-6 small-offset-3 medium-6 medium-offset-3 large-6 large-offset-3 columns ">I'm a web full stack/back-end developer base in Houston, Texas. I have a passion for building complex and secure web apps. I am a lifelong learner, who love to learn the hottest tech in the industry.</p>
+  <p class= "small-6 small-offset-3 medium-6 medium-offset-3 large-6 large-offset-3 columns ">I'm a web full stack/software developer. I have a passion for building complex and secure applications. I am a lifelong learner, who love to learn the hottest tech in the industry.</p>
   </div>
 
   <div class = "row devider">
@@ -94,6 +94,12 @@
         <div class = "devicon-python-plain">
         </div>
         <p>Python</p>
+      </div>
+
+      <div class = "java">
+        <div class = "devicon-java-plain">
+        </div>
+        <p>Java</p>
       </div>
 
       <div class = "javascript">
@@ -174,12 +180,12 @@
       <div class = "portfolio1 small-4 medium-4 large-4 columns">
         <div class="card" style="width: 300px;">
           <div class="card-divider">
-            <p>Project One</p>
+            <p>Share Editor</p>
           </div>
-          <img src="mydesk.svg">
+          <img class= "frontImage" src="/screenshots/Share_Editor_One.png">
           <div class="card-section">
-            <p class = "card-title">coming soon</p>
-            <p class = "card-des">I am still working these projects. I will post them as soon as I can. I promise. : )</p>
+            <!-- <p class = "card-title">Pair Programming Made Easy</p> -->
+            <p class = "card-des">Share Editor allows programmers to share and collaborate their code online.</p>
           </div>
         </div>
       </div>
@@ -189,12 +195,12 @@
       <div class = "portfolio2 small-4 medium-4 large-4 columns">
         <div class="card" style="width: 300px;">
           <div class="card-divider">
-            <p>Project Two</p>
+            <p>Liquify</p>
           </div>
-          <img src="mydesk.svg">
+          <img class= "frontImage" src="/screenshots/liquify_Front.png">
           <div class="card-section">
-            <p class = "card-title">coming soon</p>
-            <p class ="card-des">I am still working these projects. I will post them as soon as I can. I promise. : )</p>
+            <!-- <p class = "card-title">coming soon</p> -->
+            <p class ="card-des">Everyone has heard the advice, "Drink eight 8-ounce glasses of water a day." Liquify allows users to track their water intake on a daily basis to meet this goal.</p>
           </div>
         </div>
       </div>
@@ -204,12 +210,12 @@
     <div class = "portfolio3 small-4 medium-4 large-4 columns">
       <div class="card" style="width: 300px;">
         <div class="card-divider">
-          <p>Project Three</p>
+          <p>Price Check AI (BETA)</p>
         </div>
-        <img src="mydesk.svg">
+        <img class= "frontImage" src="/screenshots/LOL_One.png">
         <div class="card-section">
-          <p class = "card-title">coming soon</p>
-          <p class = "card-des">I am still working these projects. I will post them as soon as I can. I promise. : )</p>
+          <!-- <p class = "card-title">coming soon</p> -->
+          <p class = "card-des">Price Check AI allows League of Legends players to check up on the price of in-game items and its build path via voice commands.</p>
         </div>
       </div>
     </div>
@@ -221,8 +227,8 @@
   <!--models -->
 
 
-    <div class="reveal" id="Modal1" data-reveal>
-      <p class = "modelHead">Project one</p>
+    <div class="reveal large" id="Modal1" data-reveal>
+      <p class = "modelHead">Share Editor</p>
 
       <div class = ".orbit-container">
         <div class="orbit" role="region" aria-label="Project three" data-orbit>
@@ -232,35 +238,46 @@
 
             <li class="orbit-slide">
               <div class = "test">
-              <img class="orbit-image" src="mydesk.svg" alt="Space">
+              <img class="orbit-image" src="/screenshots/Share_Editor_One.png" alt="Space">
               </div>
-              <figcaption class="orbit-caption">one</figcaption>
+              <!-- <figcaption class="orbit-caption">one</figcaption> -->
             </li>
             <li class="orbit-slide">
               <div class = "test">
-              <img class="orbit-image" src="mydesk.svg" alt="Space">
+              <img class="orbit-image" src="/screenshots/Share_Editor_Two.png" alt="Space">
               </div>
-              <figcaption class="orbit-caption">two</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <div class = "test">
+              <img class="orbit-image" src="/screenshots/Share_Editor_Three.png" alt="Space">
+              </div>
+            </li>
+            <li class="orbit-slide">
+              <div class = "test">
+              <img class="orbit-image" src="/screenshots/Share_Editor_Four.png" alt="Space">
+              </div>
             </li>
           </ul>
           <nav class="orbit-bullets">
             <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
             <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
           </nav>
         </div>
       </div>
 
-      <p class = "sub">coming soon</p>
-      <p class = "sub">I am still working these projects. I will post them as soon as I can. I promise. : )</p>
-      <a href="" class="button secondary">Demo</a>
-      <a href="" class="button secondary">Github</a>
+      <!-- <p class = "sub">coming soon</p> -->
+      <p class = "sub">Share Editor allows programmers to share and collaborate their code online. This project was built with Node.js, Express, JavaScript, JQuery, HTML, CSS, Firebase.</p>
+      <a href="https://shareeditor.sokhunseng.com/" class="button secondary">Demo</a>
+      <a href="https://github.com/sososeng/Share_Editor" class="button secondary">Github</a>
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
 
-    <div class="reveal" id="Modal2" data-reveal>
-      <p class = "modelHead">Project Two</p>
+    <div class="reveal large" id="Modal2" data-reveal>
+      <p class = "modelHead">Liquify</p>
 
       <div class = ".orbit-container">
         <div class="orbit" role="region" aria-label="Project three" data-orbit>
@@ -270,36 +287,57 @@
 
             <li class="orbit-slide">
               <div class = "test">
-              <img class="orbit-image" src="mydesk.svg" alt="Space">
+              <img class="orbit-image" src="/screenshots/Liquify_One.png" alt="Space">
               </div>
-              <figcaption class="orbit-caption">one</figcaption>
+
             </li>
             <li class="orbit-slide">
               <div class = "test">
-              <img class="orbit-image" src="mydesk.svg" alt="Space">
+              <img class="orbit-image" src="/screenshots/Liquify_Two.png" alt="Space">
               </div>
-              <figcaption class="orbit-caption">two</figcaption>
+
+            </li>
+            <li class="orbit-slide">
+              <div class = "test">
+              <img class="orbit-image" src="/screenshots/Liquify_Three.png" alt="Space">
+              </div>
+
+            </li>
+            <li class="orbit-slide">
+              <div class = "test">
+              <img class="orbit-image" src="/screenshots/Liquify_Four.png" alt="Space">
+              </div>
+
+            </li>
+            <li class="orbit-slide">
+              <div class = "test">
+              <img class="orbit-image" src="/screenshots/Liquify_Five.png" alt="Space">
+              </div>
+
             </li>
           </ul>
           <nav class="orbit-bullets">
             <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
             <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+            <button data-slide="4"><span class="show-for-sr">Fifth slide details.</span></button>
           </nav>
         </div>
       </div>
 
-      <p class = "sub">coming soon</p>
-      <p class = "sub">I am still working these projects. I will post them as soon as I can. I promise. : )</p>
-      <a href="" class="button secondary">Demo</a>
-      <a href="" class="button secondary">Github</a>
+
+      <p class = "sub">Everyone has heard the advice, "Drink eight 8-ounce glasses of water a day." Liquify allows users to track their water intake on a daily basis to meet this goal. The user is also given a weekly overview of their progress.This project was built with Node.js, MongoDB, Redis, Express, EJS, JavaScript, jQuery, HTML, and CSS.</p>
+      <a href="https://liquify.sokhunseng.com/" class="button secondary">Demo</a>
+      <a href="https://github.com/sososeng/Liquify" class="button secondary">Github</a>
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
 
 
-    <div class="reveal" id="Modal3" data-reveal>
-      <p class = "modelHead">Project Three</p>
+    <div class="reveal large" id="Modal3" data-reveal>
+      <p class = "modelHead">Price Check AI (BETA)</p>
 
       <div class = ".orbit-container">
         <div class="orbit" role="region" aria-label="Project three" data-orbit>
@@ -309,15 +347,15 @@
 
             <li class="orbit-slide">
               <div class = "test">
-              <img class="orbit-image" src="mydesk.svg" alt="Space">
+              <img class="orbit-image" src="/screenshots/LOL_One.png" alt="Space">
               </div>
-              <figcaption class="orbit-caption">one</figcaption>
+
             </li>
             <li class="orbit-slide">
               <div class = "test">
-              <img class="orbit-image" src="mydesk.svg" alt="Space">
+              <img class="orbit-image" src="/screenshots/LOL_Two.png" alt="Space">
               </div>
-              <figcaption class="orbit-caption">two</figcaption>
+
             </li>
           </ul>
           <nav class="orbit-bullets">
@@ -327,10 +365,10 @@
         </div>
       </div>
 
-      <p class = "sub">coming soon</p>
-      <p class = "sub">I am still working these projects. I will post them as soon as I can. I promise. : )</p>
-      <a href="" class="button secondary">Demo</a>
-      <a href="" class="button secondary">Github</a>
+
+      <p class = "sub">LOL Price Check AI allows League of Legends players to check up on the price of in-game items and its build path via voice commands. This project was built with ReactJS, CSS, HTML, JavaScript, and Google Actions.</p>
+      <a href="https://lol-price-check-ai.sokhunseng.com/" class="button secondary">Demo</a>
+      <a href="https://github.com/sososeng/League_of_Legends_Price_Check" class="button secondary">Github</a>
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -355,7 +393,7 @@
 
     </div>
     <div class = "small-3 medium-3 large-3 columns">
-      <button class="hollow button secondary download" href="">Download Resume</button>
+      <a href="/Sokhun Seng.pdf" download><button class="hollow button secondary download">Download Resume</button></a>
     </div>
   </div>
 
