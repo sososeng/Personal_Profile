@@ -301,3 +301,7 @@ hr {
   align-content: center;
   margin-top: 2em;
 }
+
+.displayResume{
+  display: flex;
+}
