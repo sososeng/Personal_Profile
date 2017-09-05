@@ -160,18 +160,14 @@ background: url(city.svg) no-repeat center top;
 
 }
 
-.talk{
 
-  font-family: 'Quattrocento Sans', sans-serif;
-  color: #1e836c;
-  font-size: 1.2em;
-  font-weight: bold;
-}
 .email{
   font-family: 'Quattrocento Sans', sans-serif;
   color: #545454;
   font-weight: bold;
   font-size: 1.2em;
+  display: inline;
+  margin-right: 2em;
 }
 
 .fa-linkedin, .fa-github{
@@ -278,6 +274,7 @@ hr {
   margin-top: 100px;
   height: 8em;
   background-color:#e0ebe8;
+  display: flex;
 }
 
 .orbit-container{
@@ -296,4 +293,11 @@ hr {
   width: auto;
   display: block;
   margin: 0 auto;
+}
+.footerIn{
+  display: flex;
+}
+.linkedin{
+  align-content: center;
+  margin-top: 2em;
 }
