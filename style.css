@@ -226,7 +226,7 @@ hr {
 
 }
 
-.css, .html5, .python,.javascript,.sql,.node,.jquery,.express,.react,.mongo,.babel,.sass,.java{
+.css, .html5, .python,.javascript,.sql,.node,.jquery,.express,.react,.mongo,.sass,.java{
 	display: inline-block;
 	margin-right: 10px;
 	margin-bottom: 15px;
@@ -242,13 +242,13 @@ hr {
 
 
 .devicon-java-plain, .devicon-css3-plain, .devicon-html5-plain , .devicon-python-plain ,.devicon-javascript-plain,.devicon-postgresql-plain ,
-.devicon-nodejs-plain ,.devicon-jquery-plain,.devicon-express-original,.devicon-react-original,.devicon-mongodb-plain,.devicon-babel-plain,.devicon-sass-original{
+.devicon-nodejs-plain ,.devicon-jquery-plain,.devicon-express-original,.devicon-react-original,.devicon-mongodb-plain,.devicon-sass-original{
 	color : #60be86;
 	font-size: 5em;
 }
 
 .devicon-java-plain:hover , .devicon-css3-plain:hover, .devicon-html5-plain:hover , .devicon-python-plain:hover ,.devicon-javascript-plain:hover,.devicon-postgresql-plain:hover,
-.devicon-nodejs-plain:hover,.devicon-jquery-plain:hover,.devicon-express-original:hover,.devicon-react-original:hover,.devicon-mongodb-plain:hover,.devicon-babel-plain:hover,.devicon-sass-original:hover{
+.devicon-nodejs-plain:hover,.devicon-jquery-plain:hover,.devicon-express-original:hover,.devicon-react-original:hover,.devicon-mongodb-plain:hover,.devicon-sass-original:hover{
 	color : green;
 
 }
