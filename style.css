@@ -304,4 +304,8 @@ hr {
 
 .displayResume{
   display: flex;
+  align-items: center;
+}
+.innerResume{
+  margin: 0 auto;
 }
